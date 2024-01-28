@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Patient Application</title>
+ <link rel="stylesheet" href="style1.css"/>
+ <style>
+ body{
+    background: url('https://img.lovepik.com/photo/40176/5101.jpg_wh300.jpg') no-repeat center center/cover;
+}
+ </style>
+</head>
+<body>
+<header>
+        <div class="left">
+          <img src="https://www.freepnglogos.com/uploads/medicine-logo-png-1.png" alt="no image"/>
+        <div class="left-div">
+       <h2>Sai speciality Hospital</h2> 
+        </div>
+         
+        </div>
+        <div class="mid">
+         <ul class="navbar">
+            <li><a href="homepage.html">home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">details</a></li>
+         </ul>
+        </div>
+        <div class="right">
+            <div class="right-control">
+            <button type="submit">contactus</button>
+            <button type="submit">login</button>
+        </div>
+        </div>
+    </header>
+ <div class="container">
+        <div class="apply_box"> 
+            <h1> PATIENT Application form </h1>
+            <form method=post action="patient">
+                <div class="form_container">
+            <div class="form_control">
+                <label for="PAT_ID">Patient id:   </label>
+                <input id="PAT_ID" name="PAT_ID" placeholder="enter ID"/>
+            </div>
+                <div class="form_control">
+                    <label for="PAT_NAME">Patient name:   </label>
+                    <input id="PAT_NAME" name="PAT_NAME" placeholder="Name"/>
+                </div>
+                    <div class="form_control">
+                        <label for="PAT_GENDER">patient gender:   </label>
+                        <input id="PAT_GENDER" name="PAT_GENDER" placeholder="gender"/>
+                    </div>
+                        <div class="form_control">
+                            <label for="PAT_ADDRESS">Patient Address:   </label>
+                           <input type="text" id="PAT_ADDRESS" name="PAT_ADDRESS" placeholder="Address">
+                           
+                        </div>
+                            <div class="textarea_control">
+                                <label for="PAT_NUMBER">Number:   </label><br>
+                                <INPUT TYPE="text" id="PAT_NUMBER" name="PAT_NUMBER" placeholder="number" >
+                            </div>
+                                <div class="form_control">
+                                    <label for="DOC_CODE">doc-code:   </label>
+                                    <input id="DOC_CODE" name="DOC_CODE" placeholder="Enter DOC CODE"/>
+                                </div>
+                                 <div class="form_control">
+                                    <label for="PAT_DATE">Today-date:   </label>
+                                    <input id="PAT_DATE" name="PAT_DATE" placeholder="Enter date"/>
+                                </div>
+                                
+          
+            
+        </div>
+        <div class="button_container">
+           <button type="submit"> submit</button>
+           <button type="reset">reset</button>
+        </div>
+        </form>
+         
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Welcome to Recipectionsit!</title>
+</head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+     background: url('https:/img.lovepik.com/photo/40176/5101.jpg_wh300.jpg') no-repeat center center/cover;
+  
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .header-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+
+  .header-text {
+    font-size: 18px;
+  }
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  .buttons-container {
+    display: flex;
+    margin-top:25px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  .button-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+  }
+
+  .button-container a:hover {
+    background-color: #45a049;
+  }
+
+  .button-container .logo {
+
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    background-color: #bbebc9;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+</style>
+
+<body>
+  <div class="header">
+    <div class="header-text">Hospital Name</div>
+    <div class="header-logo">
+      <img class="header-logo"
+        src="https://img.freepik.com/free-vector/people-walking-sitting-hospital-building-city-clinic-glass-exterior-flat-vector-illustration-medical-help-emergency-architecture-healthcare-concept_74855-10130.jpg?w=2000"
+        alt="">
+    </div>
+  </div>
+
+  
+
+  <h1>Welcome to DOCTOR VIEW POINT!</h1>
+  <h3>Here doctor can see how many patients are alloted to him</h3>
+  
+  <div class="buttons-container">
+    <div class="button-container">
+      <div class="logo">
+        <img class="logo"
+          src="https://img.freepik.com/premium-vector/medicine-doctor-logo-with-stethoscope-medical-cross-icon-vector-symbol-world-health-day-element-design_144543-1286.jpg?w=2000"
+          alt="">
+      </div>
+      <a href="doctorlist.html">
+        view alloted patient Details
+      </a>
+    </div>
+   <div class="buttons-container">
+    <div class="button-container">
+      <div class="logo">
+        <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgyHpbhpYWEHSCJNmEmsj2Icu-acihMB0y5sfsIQHvxw&usqp=CAU&ec=48665698" alt="">
+      </div>
+      <a href="total">
+        TOTAL Patient Details
+      </a>
+    </div>
+    <div class="button-container">
+      <div class="logo">
+        <img class="logo"
+          src="https://img.freepik.com/premium-vector/medicine-doctor-logo-with-stethoscope-medical-cross-icon-vector-symbol-world-health-day-element-design_144543-1286.jpg?w=2000"
+          alt="">
+      </div>
+      <a href="total1">
+       TOTAL Doctor Details
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>

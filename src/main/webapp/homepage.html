@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sai multi speciality hospital</title>
+    <style>
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background: url('https://img.lovepik.com/photo/40176/5101.jpg_wh300.jpg') no-repeat center center/cover;
+  
+}
+header{
+    background-color: aqua;
+    height:90px;
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+}
+.left img{
+    width: 70px;
+    height: 50px;
+    margin-left: 10px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+.right{
+   position: absolute;
+   right: 34px;
+   top: 20px;
+   display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+    margin-top: 10px 0;
+    color: rgb(223, 179, 18);
+    text-decoration: none;
+    padding: 20px 13px;
+  
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.right-control button{
+  padding: 5px;
+  border: 2px solid grey;
+  border-radius: 3px;
+}
+.right-control button:hover{
+    background-color: rgb(13, 131, 234);
+    cursor: pointer;
+}
+.container{
+    max-width: 900px;
+    margin:0 auto;  
+    margin-bottom: 10px;  
+}
+.apply_box{
+    max-width: 600px;
+    margin:0 auto;
+    padding: 20px;
+    background-color:white;
+    margin-top: 50px;
+    box-shadow: 4px 5px 4px rgba(1, 1,1, 0.1);
+    border-radius: 10px;
+}
+.con{
+    font-size: 20px;
+
+}
+.form_container{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+.form_control{
+ display: flex;
+ flex-direction: column;
+}
+label{
+  
+    font-size:15px;
+}
+select,input,textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input:focus,textarea:focus{
+    outline-color: red;
+
+}
+.button_container{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    border:transparent solid 2px;
+    margin: 5px;
+    transition: 0.3s case-in;
+}
+button:hover{
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s case-out;
+    cursor:pointer;
+}
+    </style>
+</head>
+<body>
+<header>
+        <div class="left">
+          <img src="https://www.freepnglogos.com/uploads/medicine-logo-png-1.png" alt="no image"/>
+        <div class="left-div">
+       <h2>Sai multi speciality Hospital</h2> 
+        </div>
+         
+        </div>
+        <div class="mid">
+         <ul class="navbar">
+            <li><a href="homepage1.html">home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">details</a></li>
+         </ul>
+        </div>
+        <div class="right">
+            <div class="right-control">
+            <button type="submit">contactus</button>
+            <button type="submit">login</button>
+        </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="apply_box"> 
+            <h1> RECEIPTIONAIST LOGIN FORM </h1>
+            <form method=post action="login">
+                <div class="form_container">
+            <div class="form_control">
+                <label for="Username">Username:   </label>
+                <input id="Username" name="USERNAME" placeholder="enter username"/>
+            </div>
+            <div class="form_control">
+                <label for="password">Password:   </label>
+                <input TYPE=password id="password" name="PWORD" placeholder="Pword"/>
+            </div>
+            </div>
+            <div class="button_container">
+                <button type="submit"> submit</button>
+                <button type="reset">reset</button>
+             </div>
+             
+            </form>
+            </div>
+            </div>
+</body>
+</html>
